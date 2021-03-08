@@ -1,0 +1,33 @@
+
+@media only screen and (max-device-width: 960px) 
+{
+
+ .login-form .statement{
+
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    padding: 1em 0 1em 0;
+
+}
+.login-form input{
+
+    margin:0.5em 0 0.5em 0 ;
+}
+.login-form input[type=checkbox]{
+        
+
+    width: 5%;
+    margin: 0;
+
+  }
+
+
+.login-form p{
+
+    width: 90%;
+    padding: 1.5em 0.3em 0 0.3em;
+}
+
+}

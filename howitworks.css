@@ -1,0 +1,92 @@
+@media only screen and (max-device-width: 960px) 
+{
+
+.works-container{
+
+    height: 100%;
+    color: #20BA2B;
+    text-align: center;
+
+
+}
+
+.works-banner{
+
+    background: url('bg-img_4500x.png') no-repeat center center/cover ;
+    object-fit: cover;
+    height: 30vh;
+    
+}
+
+.headings{
+
+    height: 20vh;
+    padding: 1em 0 0 0;
+    
+}
+
+.headings .breadcrumbs{
+
+    padding: 01em 0 0 0 ;
+}
+.working{
+
+    text-align: center;
+    padding: 0 0 4em 0;
+}
+.working h2{
+
+    padding: 1em 0 1em 0;
+
+}
+
+.howitworks-boxes{
+
+   
+align-items: center;
+
+}
+.howitworks-box{
+
+    padding: 2em 0 2em 0;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 3.0px 3.0px 10px rgba(0, 0, 0, 0.2) , -3.0px 3.0px 10px rgba(0, 0, 0, 0.2),
+    3.0px -3.0px 10px rgba(0, 0, 0, 0.2) , -3.0px -3.0px 10px rgba(0, 0, 0, 0.2);
+
+}
+.howitworks-box h2{
+
+    font-size: 1.2rem;
+
+}
+.howitworks-box h2 span{
+
+    color: #20BA2B;
+    padding: 0 0.3em 0 0 ;
+
+}
+.howitworks-box .box-img{
+
+    background-color: #198F21;
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 147px;
+    padding: 2.3em;
+}
+
+.box-img img{
+
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.arrow{
+
+    padding:2em 0 1em 0 ;
+}
+
+}

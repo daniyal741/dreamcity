@@ -1,0 +1,31 @@
+@media (min-width: 961px)
+{
+   
+    .login-form .statement{
+
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        align-items: center;
+        padding: 1em 0 1em 0;
+
+    }
+    .login-form input{
+
+        margin:0.5em 0 0.5em 0 ;
+    }
+    .login-form input[type=checkbox]{
+            
+
+        width: 5%;
+
+      }
+    
+ 
+    .login-form p{
+
+        width: 95%;
+  }
+
+
+}

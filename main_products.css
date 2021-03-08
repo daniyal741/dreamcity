@@ -1,0 +1,148 @@
+
+@media (min-width: 961px)
+{
+.container{
+
+    grid-area: sec1; background-color: #FFFFFF;width: 100%; 
+    padding: 5em 2em;
+   text-align: center;
+}
+.container .breadcrumbs{
+
+    color: #20BA2B;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.container .divider{
+
+    margin: 2em 0em 1em 0em;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.container .products-links{
+
+    padding: 0 0 3em 0;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container .products-links ul{
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+.container .products-links ul li{
+
+    background-color: #20BA2B;
+    padding: 0.3em;
+    margin: 0.3em 0.3em 0em 0em ;
+    width: 32%;
+}
+
+.container .products-links ul li a{
+
+   color: #F8FFFF;
+   font-size: 12px;
+
+}
+
+.heading-main{
+
+    color: #20BA2B;
+    padding: 0 0 0.5em 0;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+.all-products{
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.product-details{
+
+    padding: 1.5em 0 2em 0;
+    width: 32%;
+    text-align: left;
+    margin: 0 5px 0 5px;
+    
+    }
+    
+    .product-details img{
+    
+        width: 250px;
+        object-fit: contain;
+        height: 180px;
+        margin: 0 auto;
+    }
+    .product-details p{
+    
+        color: black;
+        text-decoration: none;
+    }
+    .product-details a{
+    
+        color: #20BA2B;
+        text-decoration: none;
+        width: 880%;
+    }
+    .product-details .price{
+    
+        color: #20BA2B;
+        font-style: italic;
+    
+        
+    }
+    .product-details .notice{
+    
+        color: #20BA2B;
+        font-style: italic;
+    
+        
+    }
+    .product-details .origin{
+    
+        color: #20BA2B;
+        font-style: italic;
+    
+    }
+    .product-details #addToCart{
+    
+        margin: 0 auto;
+        background-color: white;
+        width: 50%;
+        height: 40px;
+        border: solid 1px #20BA2B;
+        color: black;
+        margin-top: 1em;
+    }
+
+}
+
+
+@media (min-width: 1100px)
+{
+
+    .product-details img{
+    
+        width: 350px;
+        object-fit: contain;
+        height: 180px;
+        margin: 0 auto;
+    }
+
+}

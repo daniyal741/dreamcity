@@ -1,0 +1,198 @@
+@media only screen and (max-device-width: 960px) 
+{
+
+.container{
+
+    background-color: white;
+ 
+    text-align: center;
+}
+.breadcrumbs{
+
+    padding: 2em 0 2em 0;
+    color: #20BA2B;
+    font-weight: bold;
+
+}
+.divider{
+
+    background-color: grey;
+    width: 90%;
+    margin: 0 auto;
+    height: 1px;
+}
+
+.products-links{
+
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 0 0 5em 0;
+}
+
+.products-links ul {
+
+    list-style: none;
+    margin: auto;
+    
+  
+
+}
+
+.products-links ul li{
+
+
+    background-color: #20BA2B;
+    width: 45%;
+    padding: 10px;
+    margin: 10px 2px 0 2px ;
+    display: inline-flex;
+
+}
+
+.products-links ul li a{
+
+
+    background-color: #20BA2B;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: auto;
+
+}
+
+
+.heading-main{
+
+    color: #20BA2B;
+    padding: 0 0 0.5em 0;
+    font-size: 1.2rem;
+}
+.all-products{
+
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.product-details{
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding: 1.5rem 0 0rem 0;
+    display: block;
+
+}
+
+.product-details img{
+
+    width: 335px;
+    object-fit: contain;
+    height: 180px;
+}
+.product-details p{
+
+    color: black;
+    text-decoration: none;
+}
+.product-details a{
+
+    color: #20BA2B;
+    text-decoration: none;
+    width: 880%;
+}
+.product-details .price{
+
+    color: #20BA2B;
+    font-style: italic;
+
+    
+}
+.product-details .notice{
+
+    color: #20BA2B;
+    font-style: italic;
+
+    
+}
+.product-details .origin{
+
+    color: #20BA2B;
+    font-style: italic;
+
+}
+#addToCart{
+
+    margin: 0 auto;
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    border: solid 1px #20BA2B;
+    color: black;
+    margin-top: 1em;
+}
+
+}
+
+@media only screen and (min-device-width: 600px) 
+{
+
+    .products-links{
+    
+        text-align: left;
+
+    }.products-links ul {
+
+        margin: auto;
+        
+        width: 90%;
+
+    
+    }
+    .products-links ul li{
+    
+        width: 32%;
+
+    }
+    .all-products{
+
+
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    
+    }
+    .product-details{
+
+        padding: 1.5em 1em 2em 1em;
+        width: 40%;
+        margin: auto;
+        text-align: left;
+        
+        }
+
+        .product-details a div{
+
+            margin-left: 1em;
+        }
+        .product-details img{
+
+            width: 250px;
+            height: 180px;
+        }
+        #addToCart{
+
+           
+            width: 50%;
+            margin-left: 1em;
+
+        }
+}

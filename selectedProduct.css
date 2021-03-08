@@ -1,0 +1,123 @@
+@media only screen and (max-device-width: 960px) 
+{
+
+    .container{
+
+        grid-area: sec1; background-color: #FFFFFF;width: 100%; 
+        padding: 1em 1em;
+    }
+    .container .breadcrumbs{
+    
+        color: #20BA2B;
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        font-weight: bold;
+        text-align: left;
+        font-size: 0.8em;
+    
+    }
+
+    .breadcrumbs .prev_next{
+
+        font-size: 0.8em;
+        padding: 0.3rem 0 0.3rem 0;
+        display: flex;
+        float: top;
+
+    }
+    .breadcrumbs .prev_next span{
+
+        padding: 0 0.2rem 0 0.2rem;
+
+    }
+    .breadcrumbs .prev_next img{
+
+        width: 10px;
+        height: 15px;
+    }
+    .breadcrumbs p{
+
+        display: inline-flex;
+        width: 100%;
+        font-size: 0.8rem;
+        margin: 0 auto;
+    }
+    .selected {
+
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .selected div{
+
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .selected img{
+
+        width: 50%;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+    .selected .selected-prod-detail{
+
+        width: 100%;
+        display: flex;
+        padding: 0rem 1rem;
+        flex-flow: column wrap;
+        text-align: left;
+    }
+    .selected .selected-prod-detail h3{
+    
+        padding: 0.5rem 0 0.5rem 0;
+        font-size: 1.5em;
+
+    
+    }
+
+    .selected .selected-prod-detail p{
+    
+        padding: 0.2rem 0 0.2rem 0;
+        font-size: 1em;
+
+    
+    }
+    .selected .selected-prod-detail h5{
+    
+        padding: 0.2rem 0 0.2rem 0;
+        font-size: 1em;
+
+    
+    }
+    .selected .selected-prod-detail select{
+    
+        padding: 0.3rem;
+        font-size: 1em;
+
+    
+    }
+    .heading-main{
+
+        color: black;
+    }
+    .product-details img{
+
+        width: 270px;
+        height: 180px;
+    }
+
+
+    .selected-prod-detail #addToCart{
+
+        color: white;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+        background-color: #20BA2B;
+        width: 100%;
+    }
+
+}
